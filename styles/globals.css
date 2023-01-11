@@ -14,7 +14,7 @@
 
 @layer components {
   .headerLink {
-    @apply font-light text-sm lg:text-base cursor-pointer text-[#e5e5e5] transition duration-[.4s] hover:text-[#b3b3b3];
+    @apply font-light text-sm lg:text-base cursor-pointer text-[#f8f8f8] transition duration-[.4s] hover:text-[#dbdbdb];
   }
 
   .bannerButton {
