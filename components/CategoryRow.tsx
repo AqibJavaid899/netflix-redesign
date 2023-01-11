@@ -9,7 +9,7 @@ interface Props {
 
 const CategoryRow = ({ title, movies }: Props) => {
   return (
-    <main className="space-y-1 md:space-y-2 h-40">
+    <main className="space-y-1 md:space-y-2 h-42">
       <h2 className="w-56 text-sm md:text-2xl font-semibold text-[#e5e5e5] hover:text-white transition duration-200 cursor-pointer">
         {title}
       </h2>
@@ -18,7 +18,7 @@ const CategoryRow = ({ title, movies }: Props) => {
         <ChevronLeftIcon className="chevronButton left-2 group-hover:opacity-100" />
 
         {/* Thumbnails */}
-        <div className="flex items-center space-x-1 overflow-x-scroll md:space-x-3 md:p-2">
+        <div className="flex items-center scrollbar-hide space-x-1 overflow-x-scroll md:space-x-3 md:p-2">
           {movies.map((movie) => (
             <MovieThumbnail key={movie.id} movie={movie} />
           ))}
