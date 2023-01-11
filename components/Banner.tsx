@@ -7,9 +7,9 @@ import ReadMore from "./ReadMore";
 import { Movie } from "../types/typings";
 import { BASE_URL } from "../constants/movie";
 
-type Props = {
+interface Props {
   netflixOriginals: Movie[];
-};
+}
 
 const Banner = ({ netflixOriginals }: Props) => {
   const [movie, setMovie] = useState<Movie | null>(null);

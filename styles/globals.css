@@ -21,4 +21,8 @@
     @apply cursor-pointer flex items-center gap-x-2 rounded px-5 py-1.5 text-sm font-semibold transition hover:opacity-80
     md:py-2 md:px-7 lg:py-2.5 lg:px-8 md:text-lg;
   }
+
+  .chevronButton {
+    @apply absolute top-0 bottom-0 h-9 w-9 cursor-pointer opacity-0 m-auto transition ease-out hover:scale-125 z-40;
+  }
 }
