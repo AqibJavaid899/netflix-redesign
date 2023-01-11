@@ -16,4 +16,9 @@
   .headerLink {
     @apply font-light text-sm lg:text-base cursor-pointer text-[#e5e5e5] transition duration-[.4s] hover:text-[#b3b3b3];
   }
+
+  .bannerButton {
+    @apply cursor-pointer flex items-center gap-x-2 rounded px-5 py-1.5 text-sm font-semibold transition hover:opacity-80
+    md:py-2 md:px-7 lg:py-2.5 lg:px-8 md:text-lg;
+  }
 }
