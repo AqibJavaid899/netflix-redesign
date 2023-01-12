@@ -9,7 +9,7 @@ interface Props {
 
 const MovieThumbnail = ({ movie }: Props) => {
   return (
-    <main className="relative h-28 min-w-[180px] md:min-w-[260px] md:h-36 cursor-pointer transition duration-300 ease-out md:hover:scale-105">
+    <main className="relative h-28 min-w-[180px] md:min-w-[280px] md:h-40 cursor-pointer transition duration-300 ease-out md:hover:scale-105">
       <Image
         alt="thumbnail"
         src={`${THUMBNAIL_BASE_URL}${movie.backdrop_path || movie.poster_path}`}
